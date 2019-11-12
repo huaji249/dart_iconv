@@ -1,4 +1,2 @@
-A sample command-line application.
-
-Created from templates made available by Stagehand under a BSD-style
+windows上dart调用iconv转换编码
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).

@@ -33,6 +33,7 @@ class Iconv{
     ibyt.setAll(0,form);
     ibyt[form.length]=0;
     _conv(_tp,ipointer,ilenp,opinter,olenp);
+    free(ipointer);
     return opinter.asTypedList(outleng);
   }
   void close(){
